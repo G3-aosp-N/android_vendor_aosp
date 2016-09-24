@@ -85,3 +85,6 @@ endif
 # Glove mode
 PRODUCT_PACKAGES += \
     DeviceSettings
+
+# include definitions for SDCLANG
+include vendor/aosp/sdclang/sdclang.mk
